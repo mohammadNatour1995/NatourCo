@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "siteName": "NatourCo",
+    "tagline": "Mohammed Al-Natour & Sons Customs Clearance Co."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "companyProfile": "Company Profile",
+    "gmSpeech": "General Manager's Speech",
+    "services": "Services",
+    "forms": "Forms & Downloads",
+    "links": "Useful Links",
+    "commercialTerms": "Commercial Terms",
+    "contact": "Contact Us",
+    "tariff": "Customs Tariff",
+    "getQuote": "Get in Touch"
+  },
+  "topbar": {
+    "since": "Serving Jordan's trade since 1981",
+    "phone": "+962 6 465 4120",
+    "email": "info@natourco.com"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Customs Clearance & Freight Forwarding",
+      "title": "Moving your goods through every border, without the friction.",
+      "subtitle": "For over four decades, Mohammed Al-Natour & Sons Company has been Jordan's trusted partner for customs clearance, freight forwarding and cargo transport — across land, sea and air.",
+      "ctaPrimary": "Explore Our Services",
+      "ctaSecondary": "Talk to Our Team",
+      "statYears": "Years of Experience",
+      "statBranches": "Branches Across Jordan",
+      "statClearance": "Customs Areas Covered"
+    },
+    "about": {
+      "kicker": "About Us",
+      "title": "Mohammed Al-Natour & Sons Company",
+      "body": "Founded in 1981, we are one of Jordan's leading customs clearance and freight companies. We focus on delivering the fastest, most reliable customs and cargo transport services for factory owners, traders and importers — backed by a team with decades of hands-on customs and logistics expertise.",
+      "cta": "Read Our Story"
+    },
+    "services": {
+      "kicker": "What We Do",
+      "title": "Clearance and transport, wherever your goods move",
+      "airFreight": "Air Freight",
+      "airFreightDesc": "Clearance and handling through Queen Alia International and Aqaba International airports.",
+      "seaFreight": "Sea Freight",
+      "seaFreightDesc": "Full clearance services at the Port of Aqaba, Jordan's main maritime gateway.",
+      "landShipping": "Land Shipping",
+      "landShippingDesc": "Cross-border clearance at every land crossing linking Jordan to its neighbors.",
+      "customsConsulting": "Customs Consulting",
+      "customsConsultingDesc": "Advance guidance on regulations and procedures to keep your shipments moving."
+    },
+    "whyUs": {
+      "kicker": "Why NatourCo",
+      "title": "Built on integrity, trusted since 1981",
+      "point1Title": "Deep Local Expertise",
+      "point1Body": "Four decades of hands-on experience across every Jordanian customs area.",
+      "point2Title": "Full Network Coverage",
+      "point2Body": "Five branches covering Amman, Aqaba, Sahab, and both airport customs zones.",
+      "point3Title": "End-to-End Service",
+      "point3Body": "From advance customs consulting to final-mile transport, we handle it all.",
+      "point4Title": "Trusted Reputation",
+      "point4Body": "A reputation built on credibility, precision and long-term client relationships."
+    },
+    "news": {
+      "kicker": "Latest Updates",
+      "title": "News & Announcements",
+      "cta": "View All Updates"
+    },
+    "cta": {
+      "title": "Ready to move your goods?",
+      "subtitle": "Reach out to our team for a fast, no-obligation consultation on your next shipment.",
+      "button": "Contact Us Today"
+    }
+  },
+  "about": {
+    "hero": {
+      "kicker": "About Us",
+      "title": "A legacy of trust in Jordanian customs, since 1981"
+    },
+    "profile": {
+      "kicker": "Company Profile",
+      "title": "Mohammed Al-Natour & Sons Company",
+      "p1": "Mohammed Al-Natour & Sons Company is one of the leading customs clearance and freight forwarding companies in Jordan. Founded in 1981, we have spent over four decades focused on one goal: providing the fastest, most dependable customs and cargo transport services to factory owners, traders and importers across the Kingdom.",
+      "p2": "Over three decades of growth took us from two founding branches — Amman and Aqaba — to a network that today covers every major customs area in Jordan, allowing us to serve our clients wherever their goods move.",
+      "branchesTitle": "Our branch network covers:",
+      "branch1": "Amman Customs Branch — our original head-office branch in downtown Amman.",
+      "branch2": "Aqaba Customs Branch — serving Jordan's principal maritime gateway.",
+      "branch3": "King Abdullah II City / Sahab Branch — covering the Sahab industrial zone, the Sahab free zone, and bonded warehouse areas.",
+      "branch4": "Special Economic Zone Branch — serving goods imported and exported through the Aqaba Special Economic Zone.",
+      "branch5": "Cargo Airport Branch — at Queen Alia International Airport, covering air cargo and airport free-zone goods.",
+      "p3": "This footprint lets us cover the areas that matter most to trade in Jordan, with one goal in mind: complete customer satisfaction at every step of the clearance process."
+    },
+    "gm": {
+      "kicker": "Leadership",
+      "title": "Speech of the General Manager",
+      "subtitle": "Mohammed Al-Natour & Sons Company is one of the leading companies providing customs services in Jordan",
+      "p1": "We are proud of our past and excited for what the future holds for our company. The success that Mohammed Al-Natour & Sons enjoys today is thanks, first, to God, and then to the sincere effort of our people. We have built solid foundations for an integrated, distinctive brand that holds an exceptional position in the local customs services market. We believe a strong brand is never a substitute for quality of service — it is a complement to it.",
+      "p2": "We take every opportunity to reaffirm our commitment to our valued customers, and to strengthening the trust they place in us. We will keep working to uphold the standards we have set, and to deliver an exceptional experience to every client we serve.",
+      "p3": "Our achievements over the years — in quality of service, in credibility, and in customer satisfaction — have shaped the growth of our company. We have significantly expanded our service efficiency by adopting an active strategy focused on building strong, lasting relationships with our clients.",
+      "p4": "In a business environment that shifts constantly, the road to success is never without challenges. What we know at Mohammed Al-Natour & Sons is that the greatest secret to that success is integrity. That integrity has given us our edge as a leading company for clearance, freight and cargo transport in Jordan. We take pride in what we do, because our values are not up for compromise."
+    }
+  },
+  "services": {
+    "hero": {
+      "kicker": "Our Services",
+      "title": "Customs clearance and freight, handled end to end"
+    },
+    "intro": "From the port of Aqaba to Jordan's land crossings and airports, we provide complete clearance and transport coverage across every customs area in the Kingdom.",
+    "items": {
+      "sea": {
+        "title": "Sea Border Clearance",
+        "description": "The Port of Aqaba is Jordan's principal artery for maritime trade — the gateway for exports and imports moving in and out of the country. We handle clearance for all goods and transit cargo passing through Aqaba, along with transport to and from any destination inside or outside Jordan."
+      },
+      "land": {
+        "title": "Land Border Clearance",
+        "description": "With limited air and sea outlets, Jordan relies heavily on its land borders for trade with the Gulf, Syria, Palestine, Iraq and other neighboring markets. We provide clearance and transport across every relevant customs area — including the Zarqa Free Zone, the Sahab Industrial and Free Zones, bonded warehouses, the Airport Free Zone and the Aqaba Special Economic Zone."
+      },
+      "air": {
+        "title": "Air Border Clearance",
+        "description": "Queen Alia International Airport, south of Amman, and Aqaba International Airport are Jordan's two main gateways for air trade. As key customs stations, we maintain a dedicated presence at both to serve our clients' air cargo needs."
+      },
+      "transport": {
+        "title": "Transport Services",
+        "description": "We provide inland transport for your goods to any region of the Kingdom, along with air and sea freight arrangements — whether your cargo is imported into Jordan or exported abroad — through our network of accredited shipping agents."
+      },
+      "consulting": {
+        "title": "Customs Consulting",
+        "description": "We provide advance guidance on import procedures, keeping clients current on Customs Department instructions and other relevant regulations. Getting ahead of the process saves time, effort and the cost of avoidable delays."
+      }
+    }
+  },
+  "forms": {
+    "hero": {
+      "kicker": "Forms & Downloads",
+      "title": "The paperwork you need, ready when you are"
+    },
+    "intro": "Browse our reference forms by category. Each set is available in both PDF and editable Word format on our document library.",
+    "categoryNav": {
+      "title": "Navigation Company Models",
+      "description": "Standard model forms used across our shipping and forwarding operations."
+    },
+    "categoryCustoms": {
+      "title": "Customs Areas Forms",
+      "description": "Declaration and processing forms specific to each customs area we serve."
+    },
+    "pdf": "Browse PDF Forms",
+    "word": "Browse Word Forms",
+    "note": "Documents open on our secure document library. Need a specific form or help completing one? Our team is one call away."
+  },
+  "links": {
+    "hero": {
+      "kicker": "Useful Links",
+      "title": "Official resources for trade in Jordan"
+    },
+    "intro": "Direct links to the government bodies and institutions most relevant to customs, trade and logistics in Jordan.",
+    "items": {
+      "finance": "Ministry of Finance",
+      "trc": "Telecommunications Regulatory Authority",
+      "customs": "Jordan Customs Department",
+      "freezones": "Free Zones Corporation",
+      "agriculture": "Ministry of Agriculture",
+      "health": "Ministry of Health",
+      "aci": "Amman Chamber of Industry",
+      "jfdz": "Jordanian Group for Free & Development Zones",
+      "tariff": "Customs Tariff Lookup"
+    }
+  },
+  "commercialTerms": {
+    "hero": {
+      "kicker": "Commercial Terms",
+      "title": "Incoterms® 2020, explained simply"
+    },
+    "intro": "Incoterms define who is responsible for costs, risk and delivery at each stage of a shipment. Here is a plain-language reference to the eleven terms in current use — reach out to our consulting team for guidance on any specific shipment.",
+    "items": {
+      "exw": { "term": "EXW — Ex Works", "description": "The seller makes the goods available at their own premises. The buyer bears all costs and risks from that point on, including export clearance." },
+      "fca": { "term": "FCA — Free Carrier", "description": "The seller delivers the goods, cleared for export, to the carrier nominated by the buyer at an agreed location." },
+      "cpt": { "term": "CPT — Carriage Paid To", "description": "The seller pays for carriage to the named destination. Risk transfers to the buyer once the goods are handed to the first carrier." },
+      "cip": { "term": "CIP — Carriage and Insurance Paid To", "description": "Same as CPT, but the seller must also arrange insurance covering the buyer's risk during transit, at a higher minimum level of cover." },
+      "dap": { "term": "DAP — Delivered at Place", "description": "The seller delivers when the goods are placed at the buyer's disposal, ready for unloading, at the named destination. The buyer handles import clearance." },
+      "dpu": { "term": "DPU — Delivered at Place Unloaded", "description": "Like DAP, but the seller is also responsible for unloading the goods at the named destination." },
+      "ddp": { "term": "DDP — Delivered Duty Paid", "description": "The seller bears all costs and risks — including import duties and taxes — delivering the goods ready for use at the named destination." },
+      "fas": { "term": "FAS — Free Alongside Ship", "description": "The seller delivers when the goods are placed alongside the vessel at the named port of shipment." },
+      "fob": { "term": "FOB — Free on Board", "description": "The seller delivers when the goods are loaded on board the vessel at the named port of shipment; risk transfers once the goods are on board." },
+      "cfr": { "term": "CFR — Cost and Freight", "description": "The seller pays the cost and freight to bring the goods to the named port of destination; risk transfers once the goods are on board." },
+      "cif": { "term": "CIF — Cost, Insurance and Freight", "description": "Same as CFR, but the seller must also obtain insurance covering the buyer's risk during sea transit." }
+    }
+  },
+  "contact": {
+    "hero": {
+      "kicker": "Contact Us",
+      "title": "Let's talk about your next shipment"
+    },
+    "intro": "Reach our head office directly, or find the branch closest to where your goods need to move.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "you@example.com",
+      "phonePlaceholder": "+962 7 xxxx xxxx",
+      "subjectPlaceholder": "How can we help?",
+      "messagePlaceholder": "Tell us about your shipment or enquiry...",
+      "success": "Thank you — our team will be in touch shortly."
+    },
+    "headOffice": "Head Office",
+    "address": "Downtown — Shabsough Building, Office 904, Amman, Jordan",
+    "phone": "Phone",
+    "fax": "Fax",
+    "mobile": "Mobile",
+    "email": "Email",
+    "branchesTitle": "Our Branches",
+    "branches": {
+      "amman": "Amman Customs Branch",
+      "aqaba": "Aqaba Branch",
+      "sahab": "Sahab Branch — King Abdullah II City",
+      "airport": "Airport Branch — Queen Alia International Airport",
+      "airportFreeZone": "Airport Free Zone Branch"
+    }
+  },
+  "footer": {
+    "about": "One of Jordan's leading customs clearance and freight forwarding companies, serving importers and traders since 1981.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "newsletterTitle": "Stay Updated",
+    "newsletterBody": "Subscribe for customs regulation updates and company news.",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterCta": "Subscribe",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "backToHome": "Back to Home"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you're looking for doesn't exist or has moved.",
+    "cta": "Back to Home"
+  }
+}

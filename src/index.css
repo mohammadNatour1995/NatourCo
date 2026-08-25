@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Tajawal", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Tajawal", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-50: #eef7fb;
+  --color-brand-100: #d7ecf4;
+  --color-brand-200: #b3dbea;
+  --color-brand-300: #82c3db;
+  --color-brand-400: #4fa3c4;
+  --color-brand-500: #2c85ac;
+  --color-brand-600: #1f6a8c;
+  --color-brand-700: #1b5570;
+  --color-brand-800: #19455c;
+  --color-brand-900: #0f2c3d;
+  --color-brand-950: #091c28;
+
+  --color-ink-50: #f6f7f8;
+  --color-ink-100: #eceef0;
+  --color-ink-200: #d5d9de;
+  --color-ink-300: #adb5bf;
+  --color-ink-400: #7f8a97;
+  --color-ink-500: #5f6b78;
+  --color-ink-600: #4a545f;
+  --color-ink-700: #3c4550;
+  --color-ink-800: #262d35;
+  --color-ink-900: #161b21;
+  --color-ink-950: #0c0f13;
+
+  --color-gold-50: #fdf7ec;
+  --color-gold-100: #faebc9;
+  --color-gold-200: #f5d78f;
+  --color-gold-300: #f0bd57;
+  --color-gold-400: #eba52e;
+  --color-gold-500: #dd8a1c;
+  --color-gold-600: #bc6b15;
+  --color-gold-700: #964f16;
+  --color-gold-800: #7a4018;
+  --color-gold-900: #663618;
+
+  --animate-fade-up: fade-up 0.7s ease-out both;
+  --animate-fade-in: fade-in 0.6s ease-out both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: white;
+  color: var(--color-ink-800);
+}
+
+[dir="rtl"] body {
+  font-family: "Tajawal", var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6 {
+  font-family: "Tajawal", var(--font-display);
+}
+
+::selection {
+  background-color: var(--color-brand-200);
+  color: var(--color-brand-950);
+}
