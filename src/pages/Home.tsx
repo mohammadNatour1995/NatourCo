@@ -3,19 +3,26 @@ import {
   ArrowRight,
   ArrowUpRight,
   Award,
-  Compass,
+  Globe2,
   HandshakeIcon,
   MapPinned,
   Newspaper,
-  ShieldCheck,
+  Plane,
 } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { Kicker, SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { HOME_SERVICE_ICONS, HOME_SERVICE_KEYS } from "@/lib/content";
+import { LogoMark } from "@/components/layout/LogoMark";
+import {
+  HOME_SERVICE_ICONS,
+  HOME_SERVICE_IMAGES,
+  HOME_SERVICE_KEYS,
+} from "@/lib/content";
+import seaFreightImg from "@/assets/images/sea-freight.jpg";
+import landBorderImg from "@/assets/images/land-border.jpg";
 
-const WHY_ICONS = [Compass, MapPinned, HandshakeIcon, Award];
+const WHY_ICONS = [Globe2, MapPinned, HandshakeIcon, Award];
 const WHY_KEYS = ["point1", "point2", "point3", "point4"];
 
 const NEWS_ITEMS = [
@@ -108,10 +115,12 @@ export function Home() {
       <section className="py-24">
         <Container className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-center">
           <Reveal>
-            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl bg-gradient-to-br from-brand-600 to-brand-900 p-8">
+            <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl">
+              <img src={landBorderImg} alt="" className="absolute inset-0 h-full w-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-br from-brand-950/90 via-brand-900/70 to-brand-800/40" />
               <div className="absolute -end-10 -top-10 h-40 w-40 rounded-full bg-gold-400/20 blur-3xl" />
-              <div className="relative flex h-full flex-col justify-between text-white">
-                <ShieldCheck className="h-10 w-10 text-gold-300" />
+              <div className="relative flex h-full flex-col justify-between p-8 text-white">
+                <LogoMark className="h-10 w-10 text-white" />
                 <div>
                   <p className="font-display text-5xl font-extrabold">1981</p>
                   <p className="mt-1 text-sm font-medium text-brand-100/80">
@@ -144,16 +153,26 @@ export function Home() {
               const Icon = HOME_SERVICE_ICONS[i];
               return (
                 <Reveal key={key} delay={i * 0.08}>
-                  <div className="group h-full rounded-3xl border border-ink-100 bg-white p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-900/5">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-50 text-brand-600 transition-colors group-hover:bg-brand-600 group-hover:text-white">
-                      <Icon className="h-6 w-6" strokeWidth={1.75} />
+                  <div className="group h-full overflow-hidden rounded-3xl border border-ink-100 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-900/5">
+                    <div className="relative h-36 overflow-hidden">
+                      <img
+                        src={HOME_SERVICE_IMAGES[i]}
+                        alt=""
+                        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-ink-950/0 to-transparent" />
+                      <div className="absolute bottom-3 start-3 flex h-10 w-10 items-center justify-center rounded-xl bg-white/95 text-brand-600 backdrop-blur-sm">
+                        <Icon className="h-5 w-5" strokeWidth={1.75} />
+                      </div>
                     </div>
-                    <h3 className="mt-6 font-display text-lg font-bold text-ink-900">
-                      {t(`home.services.${key}`)}
-                    </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-ink-500">
-                      {t(`home.services.${key}Desc`)}
-                    </p>
+                    <div className="p-6">
+                      <h3 className="font-display text-lg font-bold text-ink-900">
+                        {t(`home.services.${key}`)}
+                      </h3>
+                      <p className="mt-2 text-sm leading-relaxed text-ink-500">
+                        {t(`home.services.${key}Desc`)}
+                      </p>
+                    </div>
                   </div>
                 </Reveal>
               );
@@ -244,28 +263,38 @@ export function Home() {
 }
 
 function HeroGraphic() {
+  const { t } = useTranslation();
+
   return (
-    <div className="relative h-[420px] w-[420px]">
-      <div className="absolute inset-0 rounded-full border border-white/10" />
-      <div className="absolute inset-8 rounded-full border border-white/10" />
-      <div className="absolute inset-16 rounded-full border border-dashed border-white/15" />
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="flex h-28 w-28 items-center justify-center rounded-3xl bg-white/10 backdrop-blur-sm">
-          <Compass className="h-14 w-14 text-gold-300" strokeWidth={1.25} />
+    <div className="relative w-full max-w-md">
+      <div className="absolute -inset-6 rounded-[2.5rem] bg-gradient-to-br from-brand-400/25 via-transparent to-gold-400/20 blur-2xl" />
+
+      <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-white/10 shadow-2xl shadow-black/30">
+        <img src={seaFreightImg} alt="" className="h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-950/70 via-brand-950/0 to-transparent" />
+        <div className="absolute inset-x-0 top-0 flex items-center gap-2 p-5 text-white">
+          <Globe2 className="h-4 w-4 text-gold-300" />
+          <span className="text-xs font-semibold uppercase tracking-wide text-white/80">
+            {t("home.hero.statClearance")}
+          </span>
         </div>
       </div>
-      {[
-        { top: "6%", start: "48%" },
-        { top: "48%", start: "94%" },
-        { top: "88%", start: "48%" },
-        { top: "48%", start: "2%" },
-      ].map((pos, i) => (
-        <span
-          key={i}
-          className="absolute h-3 w-3 rounded-full bg-gold-400 shadow-lg shadow-gold-400/50"
-          style={{ top: pos.top, insetInlineStart: pos.start }}
-        />
-      ))}
+
+      <div className="absolute -bottom-7 start-[-1.5rem] flex items-center gap-3 rounded-2xl bg-white p-4 shadow-xl shadow-black/20 sm:start-[-2rem]">
+        <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600">
+          <LogoMark className="h-6 w-6" />
+        </span>
+        <div className="leading-tight">
+          <p className="font-display text-xl font-extrabold text-ink-900">45+</p>
+          <p className="max-w-[9rem] text-[11px] font-medium text-ink-400">
+            {t("home.hero.statYears")}
+          </p>
+        </div>
+      </div>
+
+      <span className="absolute -top-4 end-6 flex h-9 w-9 items-center justify-center rounded-full bg-gold-400 shadow-lg shadow-gold-400/40">
+        <Plane className="h-4 w-4 text-ink-950" strokeWidth={2} />
+      </span>
     </div>
   );
 }

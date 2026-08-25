@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { Compass } from "lucide-react";
 import clsx from "clsx";
+import { LogoMark } from "./LogoMark";
 
 export function Logo({ light = false }: { light?: boolean }) {
   return (
@@ -11,7 +11,7 @@ export function Logo({ light = false }: { light?: boolean }) {
           light ? "bg-white text-brand-700" : "bg-brand-600 text-white",
         )}
       >
-        <Compass className="h-5 w-5" strokeWidth={2.5} />
+        <LogoMark className="h-6 w-6" />
       </span>
       <span className="flex flex-col leading-none">
         <span

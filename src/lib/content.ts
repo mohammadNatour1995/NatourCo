@@ -15,6 +15,11 @@ import {
   ScrollText,
   type LucideIcon,
 } from "lucide-react";
+import seaFreightImg from "@/assets/images/sea-freight.jpg";
+import airFreightImg from "@/assets/images/air-freight.jpg";
+import landBorderImg from "@/assets/images/land-border.jpg";
+import transportImg from "@/assets/images/land-shipping.webp";
+import consultingImg from "@/assets/images/consulting.jpg";
 
 export const HEAD_OFFICE_PHONES = ["+962 6 465 4120", "+962 6 465 4150"];
 export const HEAD_OFFICE_FAX = "+962 6 465 2230";
@@ -30,7 +35,16 @@ export const SERVICE_ICONS: Record<string, LucideIcon> = {
   consulting: ClipboardList,
 };
 
+export const SERVICE_IMAGES: Record<string, string> = {
+  sea: seaFreightImg,
+  land: landBorderImg,
+  air: airFreightImg,
+  transport: transportImg,
+  consulting: consultingImg,
+};
+
 export const HOME_SERVICE_ICONS: LucideIcon[] = [Plane, Ship, Truck, ClipboardList];
+export const HOME_SERVICE_IMAGES: string[] = [airFreightImg, seaFreightImg, landBorderImg, consultingImg];
 export const HOME_SERVICE_KEYS = ["airFreight", "seaFreight", "landShipping", "customsConsulting"];
 
 export const INCOTERM_KEYS = [

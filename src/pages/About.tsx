@@ -5,6 +5,7 @@ import { Kicker } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 import { PageHero } from "@/components/layout/PageHero";
 import { BRANCHES } from "@/lib/content";
+import consultingImg from "@/assets/images/consulting.jpg";
 
 export function About() {
   const { t } = useTranslation();
@@ -13,6 +14,13 @@ export function About() {
   return (
     <>
       <PageHero kicker={t("about.hero.kicker")} title={t("about.hero.title")} />
+
+      <Container className="-mt-10 sm:-mt-14">
+        <Reveal className="relative aspect-[21/9] w-full overflow-hidden rounded-3xl shadow-xl shadow-ink-900/10">
+          <img src={consultingImg} alt="" className="h-full w-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-ink-950/0 to-transparent" />
+        </Reveal>
+      </Container>
 
       <section id="profile" className="scroll-mt-24 py-24">
         <Container className="grid grid-cols-1 gap-16 lg:grid-cols-[1.1fr_0.9fr]">

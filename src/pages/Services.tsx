@@ -4,7 +4,7 @@ import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { PageHero } from "@/components/layout/PageHero";
-import { SERVICE_ICONS } from "@/lib/content";
+import { SERVICE_ICONS, SERVICE_IMAGES } from "@/lib/content";
 
 const SERVICE_KEYS = ["sea", "land", "air", "transport", "consulting"];
 
@@ -31,9 +31,13 @@ export function Services() {
                     reversed ? "lg:flex-row-reverse" : ""
                   }`}
                 >
-                  <div className="flex shrink-0 items-center justify-center lg:w-56">
-                    <div className="flex h-28 w-28 items-center justify-center rounded-[2rem] bg-brand-50 text-brand-600">
-                      <Icon className="h-12 w-12" strokeWidth={1.5} />
+                  <div className="relative shrink-0 pb-5 lg:w-64 lg:pb-0">
+                    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[1.75rem]">
+                      <img src={SERVICE_IMAGES[key]} alt="" className="h-full w-full object-cover" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-ink-950/30 to-transparent" />
+                    </div>
+                    <div className="absolute -bottom-2 start-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-brand-600 shadow-lg shadow-ink-900/10">
+                      <Icon className="h-6 w-6" strokeWidth={1.75} />
                     </div>
                   </div>
                   <div className="flex flex-col gap-3">
